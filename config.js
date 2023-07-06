@@ -1,0 +1,205 @@
+const path = require("path");
+module.exports = {
+    // 生成的文件存放目录
+    folderPath: path.resolve(__dirname, "./小册"),
+    // 小册链接(小册第一章的链接)
+    bookLinks: ["https://juejin.cn/book/6844723704639782920/section/6844723704736251917?utm_source=course_list"],
+    // 是否合并小册pdf（依赖easy-pdf-merge，需java环境）
+    isMerge:true,
+    // cookie: "",
+    // 对象格式cookie
+    cookieOjbs: [
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "uid_tt",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "31ebf54cf451c8dd8df0033281287d",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "uid_tt_ss",
+            path: "/",
+
+            secure: true,
+            session: false,
+            storeId: null,
+            value: "31ebf54cf451cdfg203f0033281287d",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: false,
+            name: "msToken",
+            path: "/",
+
+            secure: true,
+            session: false,
+            storeId: null,
+            value: "R0kFUUvBidytStsMKFzRD12LB-CufcVrsPPZBf37MDpybPNgfBOEf1KKdnElPnU6LGUu2iiejFaedU6AMa60BXs8PFKBXfEIiYJUW6vfgdfsH_3ZhK1MFeJ-S9sC-Fm7O",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "store-region",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "cn-sh",
+        },
+        {
+            domain: "juejin.cn",
+            hostOnly: true,
+            httpOnly: false,
+            name: "s_v_web_id",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "f1e01f8ca5357b7d01036fac57f9871318613069f90c3f8995",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "sid_tt",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "654fdab6961159dfdc71d88dd74d480",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "ssid_ucp_v1",
+            path: "/",
+
+            secure: true,
+            session: false,
+            storeId: null,
+            value: "1.0.0-KGMwOTEwOGQ2YWQzZjlmOTUzODdhZDI0YmQwN2E4MDhkMjA0MWUxM2EKFwjn9sDA_fWRBhDJucSgBhiwFDgCQO8HGgJsZiIgNjUsdfgmRhYjY5NjExNTliOWRkYzcxZDg4ZGQ3NGQ0ODA",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "store-region-src",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "uid",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: false,
+            name: "_tea_utm_cache_2018",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "{%22utm_source%22:%asgold_browser_extension%22}",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "sessionid",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "654fdab69dfb9ddc71d88dd74d480",
+        },
+        {
+            domain: "juejin.cn",
+            hostOnly: true,
+            httpOnly: false,
+            name: "_jj_ext",
+            path: "/",
+            secure: true,
+            session: false,
+            storeId: null,
+            value: "1",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: false,
+            name: "_tea_udfcache_2608",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "{%22utm_source%22:%22gasd_browser_extension%22}",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "n_mh",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "EFg1_mBHQbgSgSfdfdS8qIA7qY3jFf9OAFGOWaDQQk",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "sessionid_ss",
+            path: "/",
+
+            secure: true,
+            session: false,
+            storeId: null,
+            value: "654fdab69611ssdfdc71d88dd74d480",
+        },
+        {
+            domain: ".juejin.cn",
+            hostOnly: false,
+            httpOnly: true,
+            name: "sid_guard",
+            path: "/",
+
+            secure: false,
+            session: false,
+            storeId: null,
+            value: "654fdab6961159b9ddc71d88dd74d480%7C1678843081%7C31536000%7CThu%2C+14-Mar-2024+01%3A18dfggg01+GMT",
+        },
+        {
+            domain: ".juejin.cn",
+
+            hostOnly: false,
+            httpOnly: true,
+            name: "sid_ucp_v1",
+            path: "/",
+
+            secure: true,
+            session: false,
+            storeId: null,
+            value: "1.0.0-KGMwOTEwOGQ2YWQzZjlmOTUzODdhZDI0YmQwN2E4MDhkMjA0MWUxM2EKFwjn9sDA_fWRBhDJucSgBhiwFDgCQO8HGgJsZiIgNjU0ZmRhYjY5NjExNTliOWRkYzcxZDg4dfgeQ0ODA",
+        },
+    ],
+};

@@ -1,0 +1,17 @@
+{
+  "name": "brochure_to_pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "easy-pdf-merge": "^0.2.6",
+    "puppeteer": "^20.7.4"
+  }
+}
